@@ -9,7 +9,7 @@ export default class ProfileScreen extends Component {
   render() {
     return(
       <View style={BasicStyles.container}>
-        <Text>SETTINGS</Text>
+        <Text>PROFILE</Text>
       </View>
     );
   }

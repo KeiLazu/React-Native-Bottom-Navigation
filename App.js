@@ -1,11 +1,14 @@
 import React from 'react';
 
 import IndexScreens from './screens/IndexScreens';
+import BottomNavBar from './components/BottomNavBar';
 
-export default class App extends React.Component {
+class App extends React.Component {
   render() {
     return (
       <IndexScreens />
     );
   }
 }
+
+export default BottomNavBar;
